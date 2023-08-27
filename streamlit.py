@@ -15,7 +15,7 @@ import streamlit as st
 x=st.number_input("enter the first number")
 y=st.number_input("enter the second number")
 z=st.number_input("enter the third number")
-write('Largest among three numbers is')
+st.write('Largest among three numbers is')
 if((x>=y) & (x>=z)):
     st.write (x)
 elif((y>=x) & (y>=z)):

@@ -15,9 +15,9 @@ import streamlit as st
 x=st.number_input("enter the first number")
 y=st.number_input("enter the second number")
 z=st.number_input("enter the third number")
-if((x>y) & (x>z)):
+if((x>=y) & (x>=z)):
     st.write (x)
-elif((y>x) & (y>z)):
+elif((y>=x) & (y>=z)):
     st.write (y)
 else:
     st.write (z)

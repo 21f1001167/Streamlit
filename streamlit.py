@@ -16,9 +16,9 @@ x=st.number_input("enter the first number")
 y=st.number_input("enter the second number")
 z=st.number_input("enter the third number")
 if((x>y) & (x>z)):
-  st.print (x)
+  st.write (x)
   if((y>x) & (y>z)):
-    st.print (y)
+    st.write (y)
   else:
-    st.print (z)
+    st.write (z)
 

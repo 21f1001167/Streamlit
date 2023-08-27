@@ -16,9 +16,9 @@ x=st.number_input("enter the first number")
 y=st.number_input("enter the second number")
 z=st.number_input("enter the third number")
 if((x>=y) & (x>=z)):
-    st.write (x)
+    st.write (largest among three numbers is x)
 elif((y>=x) & (y>=z)):
-    st.write (y)
+    st.write (largest among three numbers is y)
 else:
-    st.write (z)
+    st.write (largest among three numbers is z)
 
